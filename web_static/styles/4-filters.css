@@ -12,6 +12,7 @@ div.btn-search-wrapper {
     display: inline-flex;
     align-self: flex-end;
     flex-direction: row;
+    width: 20%;
 }
 
 button.btn-search {
@@ -19,9 +20,10 @@ button.btn-search {
     background-color: #FF5A5F;
     text-color: #FFFFFF;
     height: 48px;
-    width: 20%;
+    width: 100%;
     border: unset;
     border-radius: 4px;
     display: inline-flex;
     align-self: center;
+    margin-right: 30px;
 }
