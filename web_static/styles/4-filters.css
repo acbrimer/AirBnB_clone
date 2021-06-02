@@ -31,3 +31,7 @@ button.btn-search {
     align-self: center;
     margin-right: 30px;
 }
+
+button.btn-search:hover {
+    opacity: 0.9;
+}
