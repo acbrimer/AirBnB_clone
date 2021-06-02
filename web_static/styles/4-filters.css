@@ -9,21 +9,25 @@ section.filters {
 }
 
 div.btn-search-wrapper {
-    display: inline-flex;
+    display: flex;
     align-self: flex-end;
     flex-direction: row;
     width: 20%;
+    height: 70px;
 }
 
 button.btn-search {
     font-size: 18px;
     background-color: #FF5A5F;
-    text-color: #FFFFFF;
+    color: #FFFFFF;
     height: 48px;
+    line-height: 48px;
+    vertial-align: middle;
+    text-align: center;
     width: 100%;
     border: unset;
     border-radius: 4px;
-    display: inline-flex;
+    display: table-cell;
     align-self: center;
     margin-right: 30px;
 }
